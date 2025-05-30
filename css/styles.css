@@ -1,0 +1,134 @@
+/* ===================================================
+   RESETEO Y CONFIGURACIÓN BÁSICA
+=================================================== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #89a894;
+  background-color: #341c1c;
+  margin: 0;
+  padding: 20px;
+}
+
+/* ===================================================
+   CONTENEDOR PRINCIPAL
+=================================================== */
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #49393b;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(173, 220, 249, 0.1);
+}
+
+/* ===================================================
+   FORMULARIO Y CONTROLES
+=================================================== */
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  resize: none;
+  background-color: #89a894;
+  color: #49393b;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #4b644a;
+  color: #89a894;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #341c1c;
+}
+
+/* ===================================================
+   RESULTADOS Y COLUMNAS
+=================================================== */
+.resultados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#resultado {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.columnas {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #49393b;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(173, 220, 249, 0.2);
+}
+
+/* ===================================================
+   LISTAS DE RESULTADOS
+=================================================== */
+.columnas section {
+  flex: 1 1 45%;
+  min-width: 240px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 5px 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+/* ===================================================
+   TITULARES
+=================================================== */
+h2 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.columnas h3 {
+  text-align: center;
+}
+
+/* ===================================================
+   RESPONSIVE: UNA SOLA COLUMNA EN MÓVIL
+=================================================== */
+@media (max-width: 600px) {
+  .columnas {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .columnas section {
+    width: 100%;
+  }
+}
