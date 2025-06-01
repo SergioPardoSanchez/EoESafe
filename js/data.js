@@ -932,5 +932,5 @@ const ingredientesPermitidos = [
   "Cicerbita",
   "Lablab",
   "Carnes",
-  "carnes de todo tipo"
+  "Carnes de todo tipo"
 ];
