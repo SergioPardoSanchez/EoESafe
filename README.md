@@ -27,6 +27,8 @@ Puedes usar la aplicación directamente aquí:
 - CSS3
 - JavaScript
 
+Este proyecto fue creado como un ejercicio práctico. Por ahora, no está previsto continuar su desarrollo, aunque podría retomarse en el futuro. Considéralo un primer borrador funcional, orientado a aprender y experimentar.
+
 ---
 
 **Nota:** Esta herramienta tiene fines informativos y educativos. No sustituye la orientación médica profesional.
